@@ -1,5 +1,9 @@
 # zotero-word-for-wine-linux-integration
-Zetoro plugin for Word on Wine under Linux. Currently I have only made the plugin for standalone Zotero, following the instructions outlined by fdeboiss of Zotero Forum [1]:
+Zetoro plugin for Word on Wine under Linux. Currently I have only made the plugin for standalone Zotero, following the instructions fdeboiss of Zotero Forum [1].
+
+Please find the version of Zotero.dotm that corresponds to your Zotero's version, and copy it to .wine/drive_c/users/%user_name%/Application\ Data/Microsoft/Word/STARTUP/.
+
+If you would like to create Zotero.dotm by yourself, following the following instruction from fdeboiss:
 
 - backup somewhere the .wine/drive_c/users/%user_name%/Application\ Data/Microsoft/Word/STARTUP/Zotero.dotm (%user_name% is your user name)
 - copy Zotero.dotm somewhere where you can edit it (e.g. in you home directory)
