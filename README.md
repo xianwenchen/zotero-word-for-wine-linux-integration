@@ -12,6 +12,7 @@ If you would like to create Zotero.dotm by yourself, following the following ins
 - clic modify on any selected Zotero macro to edit
 - remove at line 146 & " -ZoteroIntegrationDocument """ & name$ & """"
 - replace at lines 162-165 Mozilla Firefox\firefox.exe by Zotero Standalone\zotero.exe
+(For 5.x versions, replace Mozilla Firefox\firefox.exe by Zotero\zotero.exe).
 - save the macro edition
 - replace the old Zotero.dotm with the new in .wine/drive_c/users/%user_name%/Application\ Data/Microsoft/Word/STARTUP/
 
